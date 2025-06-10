@@ -1,6 +1,7 @@
 ---
 title: "Coprime Sensing via Chinese Remaindering over Quadratic Fields"
 collection: publications
+category: manuscripts
 permalink: /publication/li2019coprime
 date: 2019-06-01
 venue: 'IEEE Trans. Signal Processing'

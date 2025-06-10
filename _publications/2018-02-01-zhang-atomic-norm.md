@@ -1,6 +1,7 @@
 ---
 title: "Atomic Norm Denoising-Based Joint Channel Estimation and Faulty Antenna Detection for Massive MIMO"
 collection: publications
+category: manuscripts
 permalink: /publication/zhang2018atomic
 date: 2018-02-01
 venue: 'IEEE Trans. Veh. Tech.'
