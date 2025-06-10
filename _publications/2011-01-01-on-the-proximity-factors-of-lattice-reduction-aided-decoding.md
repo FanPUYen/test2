@@ -1,10 +1,10 @@
 ---
-title: "Greedy user selection using a lattice reduction updating method for multiuser MIMO systems"
+title: "On the proximity factors of lattice reduction-aided decoding"
 collection: publications
 category: manuscripts
-permalink: /publication/greedy-user-selection-using-a-lattice-reduction-updating-method-for-multiuser-mimo-systems
+permalink: /publication/on-the-proximity-factors-of-lattice-reduction-aided-decoding
 date: 2011-01-01
-venue: 'IEEE Trans. Vehicular Tech.'
+venue: 'IEEE Trans. Signal Processing'
 paperurl: ''
-citation: 'L. Bai, C. Chen, J. Choi, and C. Ling "<a href=''>Greedy user selection using a lattice reduction updating method for multiuser MIMO systems</a>", IEEE Trans. Vehicular Tech., vol. 60, pp. 136-147, Jan. 2011.'
+citation: 'Cong Ling "<a href='http://arxiv.org/abs/1006.1666'>On the proximity factors of lattice reduction-aided decoding</a>", IEEE Trans. Signal Processing, vol. 59, pp. 2795-2808, June 2011.'
 ---
