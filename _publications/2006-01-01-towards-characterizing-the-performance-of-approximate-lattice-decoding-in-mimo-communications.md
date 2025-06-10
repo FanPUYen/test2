@@ -1,7 +1,7 @@
 ---
 title: "Towards characterizing the performance of approximate lattice decoding in MIMO communications"
 collection: publications
-category: conference
+category: conferences
 permalink: /publication/towards-characterizing-the-performance-of-approximate-lattice-decoding-in-mimo-communications
 date: 2006-01-01
 venue: 'Int. Symp. Turbo Codes / Int. ITG Conf. Source Channel Coding’06'

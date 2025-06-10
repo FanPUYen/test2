@@ -1,7 +1,7 @@
 ---
 title: "Effective LLL reduction for lattice decoding"
 collection: publications
-category: conference
+category: conferences
 permalink: /publication/effective-lll-reduction-for-lattice-decoding
 date: 2007-01-01
 venue: 'IEEE Int. Symp. Inform. Theory’07'

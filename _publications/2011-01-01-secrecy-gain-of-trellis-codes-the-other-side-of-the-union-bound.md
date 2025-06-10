@@ -1,7 +1,7 @@
 ---
 title: "Secrecy gain of trellis codes: The other side of the union bound"
 collection: publications
-category: conference
+category: conferences
 permalink: /publication/secrecy-gain-of-trellis-codes-the-other-side-of-the-union-bound
 date: 2011-01-01
 venue: 'ITW 2011'

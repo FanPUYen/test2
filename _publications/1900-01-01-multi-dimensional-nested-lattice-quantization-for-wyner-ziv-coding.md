@@ -1,7 +1,7 @@
 ---
 title: "Multi-dimensional nested lattice quantization for Wyner-Ziv coding"
 collection: publications
-category: conference
+category: conferences
 permalink: /publication/multi-dimensional-nested-lattice-quantization-for-wyner-ziv-coding
 date: 1900-01-01
 venue: 'ICC’09'

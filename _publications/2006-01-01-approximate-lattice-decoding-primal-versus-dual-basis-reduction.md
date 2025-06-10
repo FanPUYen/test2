@@ -1,7 +1,7 @@
 ---
 title: "Approximate lattice decoding: Primal versus dual basis reduction"
 collection: publications
-category: conference
+category: conferences
 permalink: /publication/approximate-lattice-decoding-primal-versus-dual-basis-reduction
 date: 2006-01-01
 venue: 'IEEE Int. Symp. Inform. Theory’06'

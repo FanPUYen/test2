@@ -1,7 +1,7 @@
 ---
 title: "Symmetric Mettropolis-within-Gibbs Algorithm for Lattice Gaussian Sampling"
 collection: publications
-category: conference
+category: conferences
 permalink: /publication/symmetric-mettropolis-within-gibbs-algorithm-for-lattice-gaussian-sampling
 date: 2016-01-01
 venue: 'ITW 2016.'

@@ -1,7 +1,7 @@
 ---
 title: "Polar Lattices for Strong Secrecy Over the Mod-Lambda Gaussian Wiretap Channel"
 collection: publications
-category: conference
+category: conferences
 permalink: /publication/polar-lattices-for-strong-secrecy-over-the-mod-lambda-gaussian-wiretap-channel
 date: 2014-01-01
 venue: 'ISIT 2014.'

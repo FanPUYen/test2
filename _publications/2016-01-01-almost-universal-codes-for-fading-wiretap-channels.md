@@ -1,7 +1,7 @@
 ---
 title: "Almost universal codes for fading wiretap channels"
 collection: publications
-category: conference
+category: conferences
 permalink: /publication/almost-universal-codes-for-fading-wiretap-channels
 date: 2016-01-01
 venue: 'ISIT 2016.'

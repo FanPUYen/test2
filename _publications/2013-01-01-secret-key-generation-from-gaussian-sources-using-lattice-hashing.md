@@ -1,7 +1,7 @@
 ---
 title: "Secret key generation from Gaussian sources using lattice hashing"
 collection: publications
-category: conference
+category: conferences
 permalink: /publication/secret-key-generation-from-gaussian-sources-using-lattice-hashing
 date: 2013-01-01
 venue: 'ISIT 2013.'
