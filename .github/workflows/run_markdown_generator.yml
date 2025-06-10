@@ -1,0 +1,36 @@
+name: Run Markdown Generator
+
+on:
+  push:
+    paths:
+      - 'markdown_generator/**'
+      - 'files/*.bib'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install pandas pybtex
+
+      - name: Run pub generator
+        working-directory: markdown_generator
+        run: |
+          python pubsFromBib.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ../_publications/*.md
+          git commit -m "Automated update from markdown generator" || echo "No changes to commit"
+          git push
