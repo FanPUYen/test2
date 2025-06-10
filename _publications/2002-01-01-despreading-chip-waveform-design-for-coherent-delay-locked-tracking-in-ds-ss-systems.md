@@ -1,7 +1,7 @@
 ---
 title: "Despreading chip waveform design for coherent delay-locked tracking in DS/SS systems"
 collection: publications
-category: conference
+category: conferences
 permalink: /publication/despreading-chip-waveform-design-for-coherent-delay-locked-tracking-in-ds-ss-systems
 date: 2002-01-01
 venue: 'in Proc. ICC’2002'

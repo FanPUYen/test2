@@ -1,7 +1,7 @@
 ---
 title: "Proximity factors of lattice reduction-aided precoding for multiantenna broadcast"
 collection: publications
-category: conference
+category: conferences
 permalink: /publication/proximity-factors-of-lattice-reduction-aided-precoding-for-multiantenna-broadcast
 date: 2012-01-01
 venue: 'ISIT 2012.'

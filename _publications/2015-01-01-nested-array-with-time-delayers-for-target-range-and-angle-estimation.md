@@ -1,7 +1,7 @@
 ---
 title: "Nested Array With Time-Delayers for Target Range and Angle Estimation"
 collection: publications
-category: conference
+category: conferences
 permalink: /publication/nested-array-with-time-delayers-for-target-range-and-angle-estimation
 date: 2015-01-01
 venue: '3rd International Workshop on Compressed Sensing Theory and its Applications to Radar'

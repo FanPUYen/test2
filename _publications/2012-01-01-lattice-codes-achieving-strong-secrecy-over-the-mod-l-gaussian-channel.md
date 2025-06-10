@@ -1,7 +1,7 @@
 ---
 title: "Lattice codes achieving strong secrecy over the mod-L Gaussian channel"
 collection: publications
-category: conference
+category: conferences
 permalink: /publication/lattice-codes-achieving-strong-secrecy-over-the-mod-l-gaussian-channel
 date: 2012-01-01
 venue: 'ISIT 2012.'

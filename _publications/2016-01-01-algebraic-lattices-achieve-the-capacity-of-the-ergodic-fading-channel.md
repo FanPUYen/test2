@@ -1,7 +1,7 @@
 ---
 title: "Algebraic lattices achieve the capacity of the ergodic fading channel"
 collection: publications
-category: conference
+category: conferences
 permalink: /publication/algebraic-lattices-achieve-the-capacity-of-the-ergodic-fading-channel
 date: 2016-01-01
 venue: 'ITW 2016.'
