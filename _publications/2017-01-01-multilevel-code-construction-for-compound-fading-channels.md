@@ -1,7 +1,7 @@
 ---
 title: "Multilevel Code Construction for Compound Fading Channels"
 collection: publications
-category: manuscripts
+category: conference
 permalink: /publication/multilevel-code-construction-for-compound-fading-channels
 date: 2017-01-01
 venue: 'ISIT 2017.'

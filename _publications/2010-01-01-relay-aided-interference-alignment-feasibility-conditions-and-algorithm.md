@@ -1,7 +1,7 @@
 ---
 title: "Relay-aided interference alignment: Feasibility conditions and algorithm"
 collection: publications
-category: manuscripts
+category: conference
 permalink: /publication/relay-aided-interference-alignment-feasibility-conditions-and-algorithm
 date: 2010-01-01
 venue: 'IEEE Int. Symp. Inform. Theory’10'

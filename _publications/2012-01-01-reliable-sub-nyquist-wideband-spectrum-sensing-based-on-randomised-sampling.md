@@ -1,7 +1,7 @@
 ---
 title: "Reliable sub-Nyquist wideband spectrum sensing based on randomised sampling"
 collection: publications
-category: manuscripts
+category: conference
 permalink: /publication/reliable-sub-nyquist-wideband-spectrum-sensing-based-on-randomised-sampling
 date: 2012-01-01
 venue: '1st International Workshop on Compressed Sensing applied to Radar'

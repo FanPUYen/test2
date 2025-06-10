@@ -1,7 +1,7 @@
 ---
 title: "Active physical-layer network coding for cooperative two-way relay channels"
 collection: publications
-category: manuscripts
+category: conference
 permalink: /publication/active-physical-layer-network-coding-for-cooperative-two-way-relay-channels
 date: 2009-01-01
 venue: 'Second IEEE International Workshop on Wireless Network Coding'

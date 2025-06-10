@@ -1,7 +1,7 @@
 ---
 title: "Compute-and-Forward over Block-Fading Channels Using Algebraic Lattices"
 collection: publications
-category: manuscripts
+category: conference
 permalink: /publication/compute-and-forward-over-block-fading-channels-using-algebraic-lattices
 date: 2017-01-01
 venue: 'ISIT 2017.'

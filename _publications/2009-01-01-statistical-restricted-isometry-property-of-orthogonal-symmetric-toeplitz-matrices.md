@@ -1,7 +1,7 @@
 ---
 title: "Statistical restricted isometry property of orthogonal symmetric Toeplitz matrices"
 collection: publications
-category: manuscripts
+category: conference
 permalink: /publication/statistical-restricted-isometry-property-of-orthogonal-symmetric-toeplitz-matrices
 date: 2009-01-01
 venue: 'IEEE Inform. Theory Workshop 2009'

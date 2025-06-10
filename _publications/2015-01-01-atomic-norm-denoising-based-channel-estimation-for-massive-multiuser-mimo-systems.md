@@ -1,7 +1,7 @@
 ---
 title: "Atomic Norm Denoising-based Channel Estimation for Massive Multiuser MIMO Systems"
 collection: publications
-category: manuscripts
+category: conference
 permalink: /publication/atomic-norm-denoising-based-channel-estimation-for-massive-multiuser-mimo-systems
 date: 2015-01-01
 venue: 'ICC 2015.'

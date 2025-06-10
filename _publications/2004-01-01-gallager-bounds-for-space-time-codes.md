@@ -1,7 +1,7 @@
 ---
 title: "Gallager bounds for space-time codes"
 collection: publications
-category: manuscripts
+category: conference
 permalink: /publication/gallager-bounds-for-space-time-codes
 date: 2004-01-01
 venue: 'IEEE Communication Theory Workshop 2004'
