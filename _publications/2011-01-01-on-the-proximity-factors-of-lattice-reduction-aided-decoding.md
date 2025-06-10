@@ -6,5 +6,5 @@ permalink: /publication/on-the-proximity-factors-of-lattice-reduction-aided-deco
 date: 2011-01-01
 venue: 'IEEE Trans. Signal Processing'
 paperurl: 'http://arxiv.org/abs/1006.1666'
-citation: 'Cong Ling "<a href='http://arxiv.org/abs/1006.1666'>On the proximity factors of lattice reduction-aided decoding</a>", IEEE Trans. Signal Processing, vol. 59, pp. 2795-2808, June 2011.'
+citation: 'Cong Ling "<a href=''>On the proximity factors of lattice reduction-aided decoding</a>", IEEE Trans. Signal Processing, vol. 59, pp. 2795-2808, June 2011.'
 ---
