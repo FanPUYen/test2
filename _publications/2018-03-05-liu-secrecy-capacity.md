@@ -1,6 +1,7 @@
 ---
 title: "Achieving Secrecy Capacity of the Gaussian Wiretap Channel with Polar Lattices"
 collection: publications
+category: manuscripts
 permalink: /publication/liu2018secrecy
 date: 2018-03-05
 venue: 'IEEE Trans. Inform. Theory'
