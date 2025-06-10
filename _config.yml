@@ -22,7 +22,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "http://www.commsp.ee.ic.ac.uk/~cling/wp-content/uploads/2015/08/Cong-200x300.jpg"
   name: "Cong Ling"
   pronouns         : # example: "she/her"  
   bio: "Professor in the Communications and Signal Processing Group"

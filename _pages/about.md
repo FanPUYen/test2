@@ -7,7 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-![Cong](http://www.commsp.ee.ic.ac.uk/~cling/wp-content/uploads/2015/08/Cong-200x300.jpg){: .alignright width="200" height="300"}
+{% include base_path %}
+{% if site.author.avatar contains '://' %}
+![Cong]({{ site.author.avatar }}){: .alignright width="200" height="300"}
+{% else %}
+![Cong]({{ base_path }}/images/{{ site.author.avatar }}){: .alignright width="200" height="300"}
+{% endif %}
 
 **Cong Ling** (凌聪)  
 [Communications and Signal Processing Group](http://www3.imperial.ac.uk/commssigproc)  
