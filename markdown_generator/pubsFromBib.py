@@ -16,13 +16,48 @@
 # TODO: Merge this with the existing TSV parsing solution
 
 
-from pybtex.database.input import bibtex
-import pybtex.database.input.bibtex 
 from time import strptime
 import string
 import html
 import os
 import re
+
+
+def parse_bib_file(filename):
+    """Minimal BibTeX parser returning dict keyed by entry id."""
+    entries = {}
+    current = None
+    entry_lines = []
+    with open(filename, encoding="utf-8") as fh:
+        for line in fh:
+            stripped = line.strip()
+            if stripped.startswith("@"):
+                if current:
+                    entries[current] = _process_entry(entry_lines)
+                    entry_lines = []
+                current = stripped.split("{", 1)[1].split(",", 1)[0].strip()
+            if current:
+                entry_lines.append(line)
+            if stripped.endswith("}") and current and not stripped.startswith("@"):  # end entry
+                entries[current] = _process_entry(entry_lines)
+                current = None
+                entry_lines = []
+    if current and entry_lines:
+        entries[current] = _process_entry(entry_lines)
+    return entries
+
+
+def _process_entry(lines):
+    fields = {}
+    body = "".join(lines)
+    for field, val in re.findall(r"(\w+)\s*=\s*(\{[^\}]*\}|\"[^\"]*\"|[^,\n]+)", body):
+        val = val.strip().rstrip(',')
+        if val.startswith("{") and val.endswith("}"):
+            val = val[1:-1]
+        if val.startswith('"') and val.endswith('"'):
+            val = val[1:-1]
+        fields[field] = val
+    return fields
 
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
@@ -57,17 +92,14 @@ def html_escape(text):
 
 
 for pubsource in publist:
-    parser = bibtex.Parser()
-    bibdata = parser.parse_file(publist[pubsource]["file"])
+    entries = parse_bib_file(publist[pubsource]["file"])
 
     #loop through the individual references in a given bibtex file
-    for bib_id in bibdata.entries:
+    for bib_id, b in entries.items():
         #reset default date
         pub_year = "1900"
         pub_month = "01"
         pub_day = "01"
-        
-        b = bibdata.entries[bib_id].fields
         
         try:
             pub_year = f'{b["year"]}'
@@ -100,15 +132,14 @@ for pubsource in publist:
             #Build Citation from text
             citation = ""
 
-            #citation authors - todo - add highlighting for primary author?
-            for author in bibdata.entries[bib_id].persons["author"]:
-                citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
+            authors = b.get("author", "")
+            if authors:
+                citation += authors + ", "
 
-            #citation title
-            citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
+            citation += "\"" + html_escape(b["title"].replace("{", "").replace("}", "").replace("\\", "")) + ".\""
 
-            #add venue logic depending on citation type
-            venue = publist[pubsource]["venue-pretext"]+b[publist[pubsource]["venuekey"]].replace("{", "").replace("}","").replace("\\","")
+            venue_field = b.get(publist[pubsource]["venuekey"], "")
+            venue = publist[pubsource]["venue-pretext"] + venue_field.replace("{", "").replace("}", "").replace("\\", "")
 
             citation = citation + " " + html_escape(venue)
             citation = citation + ", " + pub_year + "."
