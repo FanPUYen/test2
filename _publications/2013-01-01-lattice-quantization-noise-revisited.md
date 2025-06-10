@@ -1,7 +1,7 @@
 ---
 title: "Lattice quantization noise revisited"
 collection: publications
-category: manuscripts
+category: conference
 permalink: /publication/lattice-quantization-noise-revisited
 date: 2013-01-01
 venue: 'IEEE Inform. Theory Workshop 2013.'

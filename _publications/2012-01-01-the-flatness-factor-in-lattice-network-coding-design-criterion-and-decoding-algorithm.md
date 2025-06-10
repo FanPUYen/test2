@@ -1,7 +1,7 @@
 ---
 title: "The flatness factor in lattice network coding: Design criterion and decoding algorithm"
 collection: publications
-category: manuscripts
+category: conference
 permalink: /publication/the-flatness-factor-in-lattice-network-coding-design-criterion-and-decoding-algorithm
 date: 2012-01-01
 venue: 'International Zurich Seminar on Communications 2012'

@@ -1,7 +1,7 @@
 ---
 title: "Analysis of lattice codes for the many-to-one interference channel"
 collection: publications
-category: manuscripts
+category: conference
 permalink: /publication/analysis-of-lattice-codes-for-the-many-to-one-interference-channel
 date: 2012-01-01
 venue: 'IEEE Inform. Theory Workshop 2012.'

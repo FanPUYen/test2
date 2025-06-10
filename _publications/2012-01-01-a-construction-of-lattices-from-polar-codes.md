@@ -1,7 +1,7 @@
 ---
 title: "A construction of lattices from polar codes"
 collection: publications
-category: manuscripts
+category: conference
 permalink: /publication/a-construction-of-lattices-from-polar-codes
 date: 2012-01-01
 venue: 'IEEE Inform. Theory Workshop 2012.'

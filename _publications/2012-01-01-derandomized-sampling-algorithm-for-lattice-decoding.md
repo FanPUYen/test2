@@ -1,7 +1,7 @@
 ---
 title: "Derandomized sampling algorithm for lattice decoding"
 collection: publications
-category: manuscripts
+category: conference
 permalink: /publication/derandomized-sampling-algorithm-for-lattice-decoding
 date: 2012-01-01
 venue: 'IEEE Inform. Theory Workshop 2012.'

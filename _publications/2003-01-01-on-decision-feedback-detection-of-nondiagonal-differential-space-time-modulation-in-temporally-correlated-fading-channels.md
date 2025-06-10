@@ -1,7 +1,7 @@
 ---
 title: "On Decision-Feedback Detection of Nondiagonal Differential Space-Time Modulation in Temporally Correlated Fading Channels"
 collection: publications
-category: manuscripts
+category: conference
 permalink: /publication/on-decision-feedback-detection-of-nondiagonal-differential-space-time-modulation-in-temporally-correlated-fading-channels
 date: 2003-01-01
 venue: 'in Proc. ICC’03'

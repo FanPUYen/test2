@@ -1,7 +1,7 @@
 ---
 title: "Randomized lattice decoding: Bridging the gap between lattice reduction and sphere decoding"
 collection: publications
-category: manuscripts
+category: conference
 permalink: /publication/randomized-lattice-decoding-bridging-the-gap-between-lattice-reduction-and-sphere-decoding
 date: 2010-01-01
 venue: 'IEEE Int. Symp. Inform. Theory’10'
