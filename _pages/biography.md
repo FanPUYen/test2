@@ -1,10 +1,8 @@
 ---
-permalink: /
-title: "Cong Ling's Homepage"
+layout: archive
+title: "Biography"
+permalink: /biography/
 author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
 ---
 
 ![Cong](http://www.commsp.ee.ic.ac.uk/~cling/wp-content/uploads/2015/08/Cong-200x300.jpg){: .alignright width="200" height="300"}
