@@ -28,6 +28,8 @@ jobs:
           python pubsFromBib.py
 
       - name: Commit changes
+        # the generator writes to ../_publications while running inside
+        # markdown_generator, so stage the files from the repo root
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
