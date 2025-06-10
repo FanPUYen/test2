@@ -1,6 +1,4 @@
 main:
-  - title: "Cong Ling's Homepage"
-    url: /
   - title: "Biography"
     url: /biography/
   - title: "Research"
