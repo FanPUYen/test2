@@ -1,6 +1,7 @@
 ---
 title: "AWGN-Goodness is Enough: Capacity-Achieving Lattice Codes based on Dithered Probabilistic Shaping"
 collection: publications
+category: manuscripts
 permalink: /publication/campello2019awgn
 date: 2019-03-01
 venue: 'IEEE Trans. Inform. Theory'

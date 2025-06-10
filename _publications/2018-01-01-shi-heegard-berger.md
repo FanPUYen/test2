@@ -1,6 +1,7 @@
 ---
 title: "Polar Codes and Polar Lattices for the Heegard-Berger Problem"
 collection: publications
+category: manuscripts
 permalink: /publication/shi2018heegard
 date: 2018-01-01
 venue: 'IEEE Trans. Commun.'

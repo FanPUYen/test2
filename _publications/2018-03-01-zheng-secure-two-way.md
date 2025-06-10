@@ -1,6 +1,7 @@
 ---
 title: "Secure Polar Coding for the Two-Way Wiretap Channel"
 collection: publications
+category: manuscripts
 permalink: /publication/zheng2018twoway
 date: 2018-03-01
 venue: 'IEEE Access'

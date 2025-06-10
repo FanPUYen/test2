@@ -1,6 +1,7 @@
 ---
 title: "Polar Coding for the Cognitive Interference Channel with Confidential Messages"
 collection: publications
+category: manuscripts
 permalink: /publication/zheng2018cognitive
 date: 2018-01-15
 venue: 'IEEE J. Sel. Areas Commun.'

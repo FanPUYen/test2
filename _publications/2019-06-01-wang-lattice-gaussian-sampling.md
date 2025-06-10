@@ -1,6 +1,7 @@
 ---
 title: "Lattice Gaussian Sampling by Markov Chain Monte Carlo: Bounded Distance Decoding and Trapdoor Sampling"
 collection: publications
+category: manuscripts
 permalink: /publication/wang2019lattice
 date: 2019-06-01
 venue: 'IEEE Trans. Inform. Theory'
